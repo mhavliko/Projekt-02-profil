@@ -17,5 +17,100 @@ tlačítko twitter          #1da1f2
 
 body {
   background-color: #bdc3c7;
+  color: #BBCECE;
+  margin: 60px;
+  margin-right: 150px;
+  box-shadow: 5px 5px 5px #889292;
+  width: 300px;
 }
 
+.profil {
+  background-color: #31363b;
+  
+}
+
+.obsah {
+  padding:  025px;
+
+}
+
+.hlavicka {
+  position: relative;
+}
+
+.logo {
+  background-color: #b92e81;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -25px;
+  right: 30px;
+
+}
+
+.foto {
+  width: 300px;
+}
+
+.jmeno {
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+}
+
+.odkazy {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.obsah p {
+  font-family: 'Source Sans Pro', sans-serif;
+ }
+
+.odkazy {
+  margin: 0;
+  padding: 0;
+}
+
+ .odkazy a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: #BBCECE;
+ }
+
+ .odkazy li {
+  display: inline-block;
+  padding: 15px 0;
+  border-top-color: #3f464d;
+  border-top-width: 2px;
+  border-top-style: solid; 
+  border-left-color: #3f464d;
+  border-left-width: 2px;
+  border-left-style: solid;
+  text-align: center; 
+}
+
+ .portfolio {
+  width: 300px;
+ }
+
+ .facebook,
+ .twitter {
+  width: 150px;
+ }
+
+ .twitter:hover,
+ .twitter:focus,
+ .twitter:active {
+  background-color: #1da1f2;
+ }
+
+ .portfolio:hover,
+ .portfolio:focus,
+ .portfolio:active {
+  background-color: #e74c3c;
+ }
+
+ .facebook:hover,
+ .facebook:focus,
+ .facebook:active {
+  background-color: #3b5998;
+ } 
